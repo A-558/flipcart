@@ -1,0 +1,53 @@
+.main__1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px
+    
+}
+
+.main__A{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+  
+}
+.main__AA{
+    display: flex;
+    justify-content: space-between;
+}
+.ProCk__A1{
+    color: #4CAF50;
+}
+.Pro__AA:hover{
+    transform: scale(1.1);
+    
+
+
+
+}
+.Pro__AA{
+    margin-bottom: 10px;
+}
+.Pro__A2{
+    background-color :green;
+    color: white;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+   
+}
+.ProCk__details > img {
+    max-width: 100px;
+}
+@media(max-width :768px){
+    .main__A{
+        display: inline-block;
+    }
+    .main__AA{
+        display: inline-block;
+    }
+}

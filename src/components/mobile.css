@@ -1,0 +1,23 @@
+.Mobile__Main1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.Mobile__Main2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.HH{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+@media(max-width: 768px) {
+    .Mobile__Main1{
+        display: inline-block;
+    }
+    .Mobile__Main2{
+        display: inline-block;
+    }
+}

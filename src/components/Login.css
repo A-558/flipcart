@@ -1,0 +1,167 @@
+/* .LoL{
+    background-color: rgb(247, 249, 253);
+   margin-top: 200px;
+  
+}
+.LoL > img{
+    margin-left: -30%;
+    margin-top: 10px;
+   
+}
+.In{
+    margin-left: 20%;
+    margin-top: -21%;
+    margin-bottom: 100px;
+    
+    
+
+    
+}
+.In1{
+    margin-left: 20%;
+    margin-top: -5%;
+    margin-bottom: 30%;
+    
+}
+.In> input {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    border-bottom: 1px solid rgb(46, 25, 236);
+  
+    width: 350px;
+}
+.In1> input {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    border-bottom: 1px solid rgb(46, 25, 236);
+  
+    width: 350px;
+}
+.A1{
+    color: #2874f0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: -30px;
+    margin-left: 220px;
+    
+}
+.account__text{
+    margin-left: 100px;
+}
+.B_L{
+    background-color: rgb(255, 92, 32);
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    font-size: 20px;
+}
+.B__1{
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgb(77, 6, 245);
+    font-size: 20px;
+} */
+.InI{
+    margin-left: 400px;
+    margin-top: -24%;
+}
+.LoL > img{
+    margin-left: -30%;
+    margin-top: 10px;
+    
+    max-width: 500px;
+   
+}
+.LoL{
+    margin-bottom: 100px;
+}
+.B_L{
+    background-color: rgb(255, 92, 32);
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    font-size: 20px;
+}
+.B__1{
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgb(77, 6, 245);
+    font-size: 20px;
+} 
+.In> input {
+    border: none;
+    outline: none;
+    background: transparent;
+   
+    border-bottom: 1px solid rgb(46, 25, 236);
+  
+    width: 350px;
+}
+.In1> input {
+    border: none;
+    outline: none;
+    background: transparent;
+    
+    border-bottom: 1px solid rgb(46, 25, 236);
+  
+    width: 350px;
+}
+.A1{
+    color: #2874f0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: -25px;
+    margin-left: 220px;
+    
+}
+.In{
+    
+
+    margin-bottom: 20px;
+    
+}
+
+    
+.AAA{
+    color: cornflowerblue;
+}
+@media(max-width :768px){
+    .LoL > img{
+        max-width: 00px;
+    }
+    .In1> input{
+        max-width: 220px;
+    }
+ .In > input{
+     max-width: 220px;
+ }
+ .InI{
+    max-width: 400px;
+    margin-left: 10px;
+    margin-top: 20px;
+    
+ }
+ .B_L{
+    max-width: 100px;
+    padding-left: 90px;
+ }
+ .B__1{
+     max-width: 100px;
+     padding-left: 75px;
+ }
+ .account__text{
+     font-size: 10px;
+     margin-left: -30px;
+ }
+
+}

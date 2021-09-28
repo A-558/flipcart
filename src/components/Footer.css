@@ -1,0 +1,37 @@
+.Footer__1{
+    display: flex;
+    margin-left: 10px;
+    justify-content: space-between;
+    color: white;
+    
+}
+.Footer_main{
+    background:  rgb(39, 122, 216);
+    margin-top: 10px;
+}
+.Footer__2{
+    text-align: center;
+    color: white;
+}
+
+
+
+@media(max-width: 700px){
+    .Footer__1{
+    display: flex;
+    margin-left: 10px;
+    justify-content: space-between;
+    color: white;
+    font-size: 10px;
+    
+}
+.Footer_main{
+    background-color: rgb(39, 122, 216);
+    margin-top: 10px;
+    max-width: 380px;
+}
+.Footer__2{
+    text-align: center;
+    color: white;
+}
+}

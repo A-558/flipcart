@@ -1,0 +1,8 @@
+.check__AA > img {
+ max-width: 100px;
+}
+@media (max-width : 768px) {
+    .check__AA > img {
+        max-width: 100px;
+       }  
+}

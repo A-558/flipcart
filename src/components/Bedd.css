@@ -1,0 +1,109 @@
+.P__details{
+
+ 
+    display: inline-block;
+    margin-top: -200px;
+ 
+     
+ }
+ .P__AA > img{
+     max-width: 400px;
+ }
+ .pp > img{
+     max-width: 100px;
+ }
+ 
+ 
+ .P__AA>img{
+     margin-left: -900px;
+     margin-top: 100px;
+ }
+ .P__AA > button{
+    max-width: 100px;
+ }
+   
+ .A__A{
+     display: flex;
+    margin-left: -95%;
+      margin-top:20%;
+      
+ }
+ .A__A > button{
+     padding-left: 50px;
+     padding-right: 50px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     background-color: rgb(252, 153, 23);
+     
+ }
+ .A__B > button{
+     padding-left: 50px;
+     padding-right: 50px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     background-color: red;
+ }
+ .mai{
+   
+     padding-left: 20px;
+     
+ }
+ .P__A2{
+     background-color: green;
+     color: white;
+     padding-bottom: 5px;
+     padding-left: 5px;
+     padding-right: 5px;
+     padding-top: 5px;
+     margin-top: 10px;
+     border-radius: 10px;
+ }
+ .P__A1{
+     color: rgb(3, 175, 3);
+ 
+ }
+ .main__0{
+     box-shadow: 1px 2px 5px black;
+     padding-top: 20px;
+ }
+ .P__A{
+     background-color: rgb(209, 200, 200);
+ }
+ @media(max-width : 768px){
+    .mai{
+     margin-left: 550px;
+     max-width: 100px;
+    }
+    .mai_1{
+        margin-left: 550px;
+     max-width: 100px;
+    }
+     .P__AA > img{
+        max-width: 230px;
+    }
+    .pp > img{
+        margin-left: -186%;
+        max-width: 100px;
+    }
+    .A__A{
+        margin-right: 495px;
+        max-width: 100px;
+        font-size: 5px;
+
+    }
+    .A__B > button{
+        padding-bottom: 20px;
+    }
+    .P__AK{
+        margin-left: -186%;
+        
+        font-size: 5px;
+    }
+    .P__A1{
+        margin-left: -186%;
+    }
+    .P__A2{
+        margin-left: -186%;
+    }
+}
+ 
