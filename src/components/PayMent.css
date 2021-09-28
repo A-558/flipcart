@@ -36,3 +36,23 @@
 .ak1 > input{
     padding-left : -20px
 }
+@media(max-width : 760px){
+  
+    .Ak{
+      font-size: 10px;
+      margin-left: 10px;
+    }
+    .btn{
+        font-size: 10px;
+    }
+    .ak1{
+        font-size: 10px;
+        padding-top: 60px;
+        margin-left: 20px;
+    }
+    .ak2{
+        font-size: 10px;
+        padding-top: 60px;
+        margin-left: 20px;
+    }
+}
