@@ -1,7 +1,17 @@
 import './PayMent.css'
 import React from 'react'
+import {useHistory} from "react-router-dom"
+import { useDispatch } from 'react-redux'
 
-export default function payMent() {
+export default function PayMent()
+ {
+    let history = useHistory()
+    let disptach = useDispatch()
+    let buyProduct = ()=>{
+        alert("your payment is done")
+        history.push("/")
+        disptach({type : "SET_EMPTY"})
+    }
     return (
         <div>
                <div className="carthead container">
@@ -17,7 +27,7 @@ export default function payMent() {
 
                     <button type="button" class="btn btn-warning" >Delivar to this address</button>
                 </div>
-                <div className='ak1'>
+                {/* <div className='ak1'>
                   
                 <input type="radio" name="radio" />
                    
@@ -29,8 +39,8 @@ export default function payMent() {
 
  
                     <button type="button" class="btn btn-warning" >Delivar to this address</button>
-                </div>
-                <div className='ak2'>
+                </div> */}
+                {/* <div className='ak2'>
                   
                   <input type="radio" name="radio" />
                      
@@ -42,7 +52,7 @@ export default function payMent() {
   
    
                       <button type="button" class="btn btn-warning" >Delivar to this address</button>
-                  </div>
+                  </div> */}
              
             </div>
 
@@ -64,7 +74,7 @@ export default function payMent() {
 
             </div>
 
-
+        <button onClick = {buyProduct}>Place Order</button>
 
         </div>
     )

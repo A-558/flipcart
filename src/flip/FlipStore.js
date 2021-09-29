@@ -25,6 +25,9 @@ function reducer( state=initialState , action ){
                 return {...state,basket:newBasket}
                 case "SET_USER":
                 return{...state,user:action.user}
+
+                case "SET_EMPTY":
+                    return{...state,basket :[]}
         
         default : 
           return state;

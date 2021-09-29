@@ -11,7 +11,7 @@ export default function  CheckOut({img,Model,Title,Price}) {
                
      
      <div className ='check__AA'>
-         <img src = "" alt = "img"/>
+         <img src = {img} alt = ""/>
      </div>
      <div className='check__details'>
      <span className = 'check__AK'> {Title}</span><br></br> 
